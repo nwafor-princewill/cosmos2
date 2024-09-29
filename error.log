@@ -1,0 +1,107 @@
+[27-Jul-2024 11:26:08 Europe/Berlin] Database connection is working.
+[27-Jul-2024 11:26:08 Europe/Berlin] Form Data: Array
+(
+    [Name] => nwafor princewill
+    [email] => nellyfancii@gmail.com
+    [phone] => 09032650856
+    [message] => I need a solution for mu buisness!!
+)
+
+[27-Jul-2024 11:47:56 Europe/Berlin] Database connection is working.
+[27-Jul-2024 11:47:56 Europe/Berlin] Form Data: Array
+(
+    [name] => nwafor
+    [email] => nellyfancii@gmail.com
+    [phone] => 09032650856
+    [message] => I need a solution for mu buisness!!
+)
+
+[27-Jul-2024 11:48:56 Europe/Berlin] Database connection is working.
+[27-Jul-2024 11:48:56 Europe/Berlin] Form Data: Array
+(
+    [name] => 
+    [email] => 
+    [phone] => 
+    [message] => 
+)
+
+[27-Jul-2024 16:02:52 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\cosmos2\consultation_project\includes\process_consultation.php on line 12
+[27-Jul-2024 16:02:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function ping() on null in C:\xampp\htdocs\cosmos2\consultation_project\includes\process_consultation.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\cosmos2\consultation_project\includes\process_consultation.php on line 12
+[27-Jul-2024 16:04:04 Europe/Berlin] Database connection is working.
+[27-Jul-2024 16:04:04 Europe/Berlin] Form Data: Array
+(
+    [name] => nwafor
+    [email] => mmeso@gmail.com
+    [phone] => 09032650856
+    [message] => i need help from your company
+)
+
+[27-Jul-2024 16:04:22 Europe/Berlin] Database connection is working.
+[27-Jul-2024 16:04:22 Europe/Berlin] Form Data: Array
+(
+    [name] => nwafor
+    [email] => mmeso@gmail.com
+    [phone] => 09032650856
+    [message] => i need help from your company
+)
+
+[27-Jul-2024 20:01:09 Europe/Berlin] Database connection is working.
+[27-Jul-2024 20:01:09 Europe/Berlin] Form Data: Array
+(
+    [name] => princewill
+    [email] => precious@gmail.com
+    [phone] => 09032650856
+    [message] => I need a solution for mu buisness!!
+)
+
+[27-Jul-2024 20:28:32 Europe/Berlin] Database connection is working.
+[27-Jul-2024 20:28:32 Europe/Berlin] Form Data: Array
+(
+    [name] => nnamdi
+    [email] => cosmos@gmail.com
+    [phone] => 09032650856
+    [message] => I need a solution for mu buisness!!
+)
+
+[27-Jul-2024 20:35:09 Europe/Berlin] Database connection is working.
+[27-Jul-2024 20:35:09 Europe/Berlin] Form Data: Array
+(
+    [name] => nwafor
+    [email] => nellyfancii@gmail.com
+    [phone] => 09032650856
+    [message] => i need help from your company
+)
+
+[27-Jul-2024 21:25:44 Europe/Berlin] Database connection is working.
+[27-Jul-2024 21:25:44 Europe/Berlin] Form Data: Array
+(
+    [name] => prince
+    [email] => nellyfancii@gmail.com
+    [phone] => 09032650856
+    [message] => i need help from your company
+    [submit] => 
+)
+
+[27-Jul-2024 21:25:44 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\cosmos2\consultation_project\includes\process_consultation.php on line 24
+[27-Jul-2024 21:25:44 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\cosmos2\consultation_project\includes\process_consultation.php on line 26
+[27-Jul-2024 21:25:44 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\cosmos2\consultation_project\includes\process_consultation.php on line 27
+[27-Jul-2024 21:25:44 Europe/Berlin] Test query executed successfully
+[27-Jul-2024 21:25:44 Europe/Berlin] Query executed successfully
+[28-Jul-2024 17:54:48 Europe/Berlin] Database connection is working.
+[28-Jul-2024 17:54:48 Europe/Berlin] Form Data: Array
+(
+    [name] => prince
+    [email] => prince@gmail.com
+    [phone] => 08100118236
+    [message] => what types of consult do your company offer
+    [submit] => 
+)
+
+[28-Jul-2024 17:54:48 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\cosmos2\consultation_project\includes\process_consultation.php on line 24
+[28-Jul-2024 17:54:48 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\cosmos2\consultation_project\includes\process_consultation.php on line 26
+[28-Jul-2024 17:54:48 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\cosmos2\consultation_project\includes\process_consultation.php on line 27
+[28-Jul-2024 17:54:48 Europe/Berlin] Test query executed successfully
+[28-Jul-2024 17:54:48 Europe/Berlin] Query executed successfully
