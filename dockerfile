@@ -25,7 +25,7 @@ RUN composer install --no-dev
 # Enable Apache mod_rewrite (if needed)
 RUN a2enmod rewrite
 
-RUN a2enmod php8.2
+#RUN a2enmod php8.2
 
 
 RUN chown -R www-data:www-data /var/www/html && \
