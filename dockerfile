@@ -44,7 +44,7 @@ EXPOSE 8080
 
 # Use .env file (optional) for environment variables
 # Ensure .env is copied and set in your app
-COPY .env /var/www/html/.env
+#COPY .env /var/www/html/.env
 
 # Start Apache in the foreground
 CMD ["apache2-foreground"]
