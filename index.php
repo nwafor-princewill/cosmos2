@@ -506,7 +506,7 @@ if (isset($_GET['consultation'])) {
 
    
     <div class="consult_form">
-      <form action="https://cosmos2.onrender.com/cosmos2/consultation_project/includes/process_consultation.php" method="post">
+      <form action="/cosmos2/consultation_project/includes/process_consultation.php" method="post">
         <input type="text" placeholder="Name" name="name">
         <input type="email" id="mail" placeholder="Email Address" name="email" >
         <input type="text" id="number" placeholder="phone No" name="phone">
