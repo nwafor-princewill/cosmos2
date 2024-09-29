@@ -25,8 +25,11 @@ RUN composer install --no-dev
 # Enable Apache mod_rewrite (if needed)
 RUN a2enmod rewrite
 
-RUN chown -R www-data:www-data /var/www/html
+RUN a2enmod php8.2
 
+
+RUN chown -R www-data:www-data /var/www/html && \
+    chmod -R 755 /var/www/html
 # Configure Apache to listen on port 8080
 RUN sed -i 's/80/8080/g' /etc/apache2/sites-available/000-default.conf /etc/apache2/ports.conf
 
@@ -39,8 +42,8 @@ RUN echo '<VirtualHost *:8080>\n\
         AllowOverride All\n\
         Require all granted\n\
     </Directory>\n\
-    Alias /cosmos2/consultation_project /var/www/html/consultation_project\n\
-    <Directory /var/www/html/consultation_project>\n\
+    Alias /cosmos2/consultation_project /var/www/html/consultation_project/includes\n\
+    <Directory /var/www/html/consultation_project/includes>\n\
         AllowOverride All\n\
         Require all granted\n\
     </Directory>\n\
