@@ -183,43 +183,6 @@ if (isset($_GET['consultation'])) {
   </div>
 </section>
 
-<!-- service-home section -->
-
-<!-- <section class="services">
-  <h1>Our Services</h1>
-
-  <div class="service">
-    <div class="service1">
-      <div class="circle1">
-        <i class="fa-solid fa-car-battery"></i>
-      </div>
-      <h3>Energy Management</h3>
-        <div class="service11">
-            <div class="service12">
-              <div class="circle12">
-                <i class="fa-solid fa-microchip"></i>
-              </div>
-              <h3>Embedded  Systtems</h3>
-            </div>
-            <div class="service13">
-
-              <div class="circle13">
-                <i class="fa-solid fa-cloud-arrow-up"></i>
-              </div>
-              <h3>Internet Of Things</h3>
-            </div>
-            
-        </div>
-    </div>
-    <div class="service2">
-      <div class="circle_2">
-
-      </div>
-      <h3>Renewable Energy</h3>
-      <a href="service.html"><button>Discover More</button></a>
-    </div>
-</div>
-</section> -->
 
 
 <section class="services">
@@ -647,7 +610,7 @@ if (isset($_GET['consultation'])) {
       <div class="footer__newsletter">
         <h3 class="footer__heading">Subscribe To Our Newsletter</h3>
         <p>Subscribe email and get recent news and updates</p>
-        <form class="footer__form" id="newsletterForm" method="post" action="/consultation_project/includes/newsletter.php">
+        <form class="footer__form" id="newsletterForm" action="/consultation_project/includes/newsletter.php" method="post">
             <input type="email" name="email" placeholder="Enter Your Email Address..." class="footer__input" required>
             <input type="hidden" name="current_page" value="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
             <button type="submit" class="footer__submit"><i class="fa fa-paper-plane"></i></button>

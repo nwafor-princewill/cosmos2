@@ -73,7 +73,7 @@ document.getElementById('newsletterForm').addEventListener('submit', function(e)
   var email = this.querySelector('input[name="email"]').value;
   var currentPage = this.querySelector('input[name="current_page"]').value;
 
-  fetch('/cosmos2/consultation_project/includes/newsletter.php', {
+  fetch('/consultation_project/includes/newsletter.php', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
