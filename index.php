@@ -506,7 +506,7 @@ if (isset($_GET['consultation'])) {
 
    
     <div class="consult_form">
-      <form action="includes/process_consultation.php" method="post">
+      <form action="/consultation_project/includes/process_consultation.php" method="post">
         <input type="text" placeholder="Name" name="name">
         <input type="email" id="mail" placeholder="Email Address" name="email" >
         <input type="text" id="number" placeholder="phone No" name="phone">
@@ -647,7 +647,7 @@ if (isset($_GET['consultation'])) {
       <div class="footer__newsletter">
         <h3 class="footer__heading">Subscribe To Our Newsletter</h3>
         <p>Subscribe email and get recent news and updates</p>
-        <form class="footer__form" id="newsletterForm" method="post" action="/cosmos2/consultation_project/includes/newsletter.php">
+        <form class="footer__form" id="newsletterForm" method="post" action="/consultation_project/includes/newsletter.php">
             <input type="email" name="email" placeholder="Enter Your Email Address..." class="footer__input" required>
             <input type="hidden" name="current_page" value="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
             <button type="submit" class="footer__submit"><i class="fa fa-paper-plane"></i></button>

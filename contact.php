@@ -62,7 +62,7 @@ if (isset($_GET['errors'])) {
 <section class="contact_page">
         <h1>Talk About How We Can Help You</h1>
         <div class="general_enquiry">
-            <form action="/cosmos2/consultation_project/includes/client_enquiry.php" method="post"class="client_enquiry">
+            <form action="/consultation_project/includes/client_enquiry.php" method="post"class="client_enquiry">
                 <h3>GENERAL ENQUIRY</h3>
                 <input type="text" name="fullname" id="client_name" placeholder="Full Name">
 

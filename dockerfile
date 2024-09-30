@@ -14,6 +14,9 @@ RUN apt-get update && apt-get install -y \
     git \
     && docker-php-ext-install mysqli pdo pdo_mysql
 
+    RUN chown -R www-data:www-data /var/www/html && \
+    chmod -R 755 /var/www/html
+
 
 # Install necessary PHP extensions, e.g., for MySQL
 RUN docker-php-ext-install mysqli pdo pdo_mysql
@@ -27,9 +30,6 @@ RUN a2enmod rewrite
 
 #RUN a2enmod php8.2
 
-
-RUN chown -R www-data:www-data /var/www/html && \
-    chmod -R 755 /var/www/html
 # Configure Apache to listen on port 8080
 RUN sed -i 's/80/8081/g' /etc/apache2/sites-available/000-default.conf /etc/apache2/ports.conf
 
