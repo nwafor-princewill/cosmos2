@@ -62,7 +62,7 @@ if (isset($_GET['consultation'])) {
 <body>
 
   <section id="header">
-    <a href="#"><img src="images/Images/cosmos-logo.png" class="logo" alt=""></a>
+    <a href="#"><img src="Images/Images/cosmos-logo.png" class="logo" alt=""></a>
 
     <div>
         <ul id="navbar">
@@ -273,7 +273,7 @@ if (isset($_GET['consultation'])) {
         <h3 class="twenty"> <strong>20</strong> <span>CONTROLLERS</span></h3>
         <div class="ellipse">
           <!-- <i class="fa fa-arrow-right"><a href="project.html"></a></i> -->
-          <a href="project.html"><i class="fa fa-arrow-right"></i></a>
+          <a href="project.php"><i class="fa fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -283,7 +283,7 @@ if (isset($_GET['consultation'])) {
         <p>Power Distribution Monitoring System for Memfys Hospital</p>
         <h3 class="twenty"> <strong>20</strong> <span>CT & MRI Power Monitors</span></h3>
         <div class="ellipse1">
-          <a href="project.html"><i class="fa fa-arrow-right"></i></a>
+          <a href="project.php"><i class="fa fa-arrow-right"></i></a>
         </div>
       </div>
       
@@ -506,7 +506,7 @@ if (isset($_GET['consultation'])) {
 
    
     <div class="consult_form">
-      <form action="/cosmos2/consultation_project/includes/process_consultation.php" method="post">
+      <form action="includes/process_consultation.php" method="post">
         <input type="text" placeholder="Name" name="name">
         <input type="email" id="mail" placeholder="Email Address" name="email" >
         <input type="text" id="number" placeholder="phone No" name="phone">

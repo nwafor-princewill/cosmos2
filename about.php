@@ -20,7 +20,7 @@
     <!-- about_navbar -->
 
     <section id="header">
-        <a href="#"><img src="images/Images/cosmos-logo.png" class="logo" alt=""></a>
+        <a href="#"><img src="Images/Images/cosmos-logo.png" class="logo" alt=""></a>
     
         <div>
             <ul id="navbar">

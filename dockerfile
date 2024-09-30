@@ -31,10 +31,10 @@ RUN a2enmod rewrite
 RUN chown -R www-data:www-data /var/www/html && \
     chmod -R 755 /var/www/html
 # Configure Apache to listen on port 8080
-RUN sed -i 's/80/8080/g' /etc/apache2/sites-available/000-default.conf /etc/apache2/ports.conf
+RUN sed -i 's/80/8081/g' /etc/apache2/sites-available/000-default.conf /etc/apache2/ports.conf
 
 # Update the VirtualHost configuration
-RUN echo '<VirtualHost *:8080>\n\
+RUN echo '<VirtualHost *:8081>\n\
     DocumentRoot /var/www/html\n\
     ErrorLog ${APACHE_LOG_DIR}/error.log\n\
     CustomLog ${APACHE_LOG_DIR}/access.log combined\n\
@@ -50,7 +50,7 @@ RUN echo '<VirtualHost *:8080>\n\
 </VirtualHost>' > /etc/apache2/sites-available/000-default.conf
 
 # Expose port 8080 for Render (as your local port 80 is occupied)
-EXPOSE 8080
+EXPOSE 8081
 
 # Use .env file (optional) for environment variables
 # Ensure .env is copied and set in your app

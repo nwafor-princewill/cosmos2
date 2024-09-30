@@ -60,7 +60,7 @@ const repeat = function(activeClass){
         return;
       }
       repeater();
-    }, 4000);
+    }, 6000);
   }
   repeater();
 }
