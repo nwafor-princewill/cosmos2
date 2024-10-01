@@ -14,13 +14,13 @@ require_once 'send_email.php';
 $errors = [];
 
 // Retrieve and sanitize form data
-$fullName = trim(filter_input(INPUT_POST, 'fullname', FILTER_SANITIZE_STRING) ?? '');
-$phoneNo = trim(filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_STRING) ?? '');
+$fullName = trim(filter_input(INPUT_POST, 'fullname', FILTER_SANITIZE_FULL_SPECIAL_CHARS) ?? '');
+$phoneNo = trim(filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_FULL_SPECIAL_CHARS) ?? '');
 $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL) ?? '';
-$location = trim(filter_input(INPUT_POST, 'location', FILTER_SANITIZE_STRING) ?? '');
-$hearAboutUs = trim(filter_input(INPUT_POST, 'hear', FILTER_SANITIZE_STRING) ?? '');
-$service = trim(filter_input(INPUT_POST, 'service', FILTER_SANITIZE_STRING) ?? '');
-$message = trim(filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING) ?? '');
+$location = trim(filter_input(INPUT_POST, 'location', FILTER_SANITIZE_FULL_SPECIAL_CHARS) ?? '');
+$hearAboutUs = trim(filter_input(INPUT_POST, 'hear', FILTER_SANITIZE_FULL_SPECIAL_CHARS) ?? '');
+$service = trim(filter_input(INPUT_POST, 'service', FILTER_SANITIZE_FULL_SPECIAL_CHARS) ?? '');
+$message = trim(filter_input(INPUT_POST, 'message', FILTER_SANITIZE_FULL_SPECIAL_CHARS) ?? '');
 
 // Validate form data
 if (empty($fullName)) {
