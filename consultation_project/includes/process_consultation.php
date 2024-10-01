@@ -16,7 +16,8 @@ if (isset($_POST['submit'])) {
 
     // Validate email
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: /cosmos2/index.php?consultation=invalid_email");
+        // Remove /cosmos2/ from the redirection
+        header("Location: /index.php?consultation=invalid_email");
         exit();
     }
 
@@ -26,37 +27,38 @@ if (isset($_POST['submit'])) {
 
     if ($stmt === false) {
         error_log("Prepare failed: " . $conn->error);
-        header("Location: /cosmos2/index.php?consultation=prepare_error");
+        header("Location: /index.php?consultation=prepare_error");
         exit();
     }
 
     // Bind parameters and execute
     if (!$stmt->bind_param("ssss", $name, $email, $phone, $message)) {
         error_log("Binding parameters failed: " . $stmt->error);
-        header("Location: /cosmos2/index.php?consultation=bind_error");
+        header("Location: /index.php?consultation=bind_error");
         exit();
     }
 
     if ($stmt->execute()) {
-        //  email
+        // Send email
         require_once 'send_email.php';
         $emailResult = sendEmail($name, $email, $phone, $message);
-        
+
         if ($emailResult === true) {
-            header("Location: /cosmos2/index.php?consultation=success");
+            // Remove /cosmos2/ from the redirection
+            header("Location: /index.php?consultation=success");
         } else {
             error_log("Email Error: " . $emailResult);
-            header("Location: /cosmos2/index.php?consultation=email_error" . urlencode($emailResult));
+            header("Location: /index.php?consultation=email_error" . urlencode($emailResult));
         }
     } else {
         error_log("Execute failed: " . $stmt->error . " SQL: " . $sql);
-        header("Location: /cosmos2/index.php?consultation=db_error");
+        header("Location: /index.php?consultation=db_error");
     }
 
     $stmt->close();
     $conn->close();
 } else {
-    // If the form wasn't submitted, redirect to the home page
-    header("Location: /cosmos2/index.php");
+    // Remove /cosmos2/ from the redirection
+    header("Location: /index.php");
 }
 exit();
