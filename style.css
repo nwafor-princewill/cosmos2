@@ -111,7 +111,7 @@ body {
 }
 
 #close {
-  display: none;
+  /* display: none; */
   position: absolute;
   top: 30px;
   left: 30px;
