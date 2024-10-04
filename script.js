@@ -4,13 +4,13 @@ const nav = document.getElementById('navbar');
 
 if (bar) {
     bar.addEventListener('click', () => {
-        nav.classList.add('active');
+        nav.classList.add('navbar-active');
     })
 }
 
 if (close) {
     close.addEventListener('click', () => {
-        nav.classList.remove('active');
+        nav.classList.remove('navbar-active');
     })
 }
 
@@ -39,33 +39,33 @@ btns.forEach((btn, i) => {
 });
 
 // Javascript for image slider autoplay navigation
-const repeat = function(activeClass){
-  let active = document.getElementsByClassName('active');
-  let i = 1;
-
+const repeat = function() {
+  let i = currentSlide;
   const repeater = () => {
-    setTimeout(function(){
-      [...active].forEach((activeSlide) => {
-        activeSlide.classList.remove('active');
+    setTimeout(() => {
+      slides.forEach((slide) => {
+        slide.classList.remove('active');
+      });
+      btns.forEach((btn) => {
+        btn.classList.remove('active');
       });
 
       slides[i].classList.add('active');
       btns[i].classList.add('active');
       i++;
 
-      if(slides.length == i){
+      if (i >= slides.length) {
         i = 0;
       }
-      if(i >= slides.length){
-        return;
-      }
+
       repeater();
     }, 6000);
   }
   repeater();
 }
-repeat();
 
+// Initialize the autoplay slide
+repeat();
 
 document.getElementById('newsletterForm').addEventListener('submit', function(e) {
   e.preventDefault();  // Prevent form submission from reloading the page

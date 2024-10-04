@@ -38,7 +38,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 5%;
-  background: linear-gradient(rgba(84, 186, 66, 0.12), rgba(84, 186, 66, 0));
+  /* background: linear-gradient(rgba(84, 186, 66, 0.12), rgba(84, 186, 66, 0)); */
+  background-color: rgba(255, 255, 255, 0.95); /* Match navbar background */
   box-shadow: 0 4px 80px 3px rgba(0, 0, 0, 0.5);
   position: sticky;
   top: 0;
@@ -63,15 +64,16 @@ body {
   position: fixed;
   top: 0;
   right: -300px;
-  height: 100vh;
+  height: 50vh;
   width: 300px;
-  background: linear-gradient(rgba(84, 186, 66, 0.12), rgba(84, 186, 66, 0));
+  /* background: linear-gradient(rgba(84, 186, 66, 0.12), rgba(84, 186, 66, 0)); */
+  background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
   padding: 80px 0 0 10px;
   transition: 0.3s;
 }
 
-#navbar.active {
+#navbar.navbar-active {
   display: flex;
   right: 0px;
   top: -15px;
@@ -332,113 +334,7 @@ body {
 }
 
 /* Base styles (mobile-first) */
-/* .img {
-    background-image: url(Images/Images/pexels-tnfeez-desgin-10699354.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding: 2rem 1rem;
-}
-  
-.component {
-    width: 100%;
-}
-  
-.component h1 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 1.3;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 1rem;
-}
-  
-.component p {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.4;
-    text-align: center;
-    color: #fff;
-    margin-bottom: 2rem;
-}
-  
-.component a {
-    text-decoration: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-  
-.component button {
-    border: none;
-    border-radius: 15px;
-    background-color: #54ba42;
-    color: #fff;
-    font-size: 1rem;
-    line-height: 1.2;
-    font-weight: 700;
-    padding: 1rem 1.5rem;
-    cursor: pointer;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-    max-width: 310px;
-} */
-  
-  /* Tablet styles */
-/* @media screen and (min-width: 768px) {
-    .img {
-      padding: 3rem 2rem;
-    }
-  
-    .component h1 {
-      font-size: 2.5rem;
-      line-height: 1.4;
-      margin-bottom: 1.5rem;
-    }
-  
-    .component p {
-      font-size: 1.2rem;
-      line-height: 1.5;
-      margin-bottom: 3rem;
-    }
-  
-    .component button {
-      font-size: 1.2rem;
-      padding: 1.2rem 2rem;
-    }
-} */
-  
-  /* Desktop styles */
-/* @media screen and (min-width: 1024px) {
-    .img {
-      height: 780px;
-      padding: 0; 
-    }
-  
-    .component h1 {
-      font-size: 3.125rem;
-      line-height: 1.16;
-      margin-bottom: 2rem;
-    }
-  
-    .component p {
-      font-size: 1.5rem;
-      line-height: 1.17;
-      margin-bottom: 4rem;
-    }
-  
-    .component button {
-      font-size: 1.3125rem;
-      width: 420px;
-      height: 79px;
-    }
-} */
+
 /* Hero section */
 
 /* Base styles (mobile-first) */
