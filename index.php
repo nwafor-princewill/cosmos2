@@ -557,6 +557,24 @@ if (isset($_GET['consultation'])) {
           </div>
         </div>
       </div>
+      
+      <div class="update_1">
+        <div class="update_date">
+          <p>December 12, 2023</p>
+        </div>
+        <div class="process_1">
+          <p class="process_11">DESIGN PROCESS</p>
+          <h2 class="process_12">Solar Energy's Exceptional Synergies</h2>
+          <div class="admin-info">
+            <div class="admin-details">
+              <div class="admin1"></div>
+              <p class="admin_p">By Thomas Walhae</p>
+            </div>
+            <p class="admin_comment">14 Comments</p>
+          </div>
+        </div>
+      </div>
+
   </div>
 
   

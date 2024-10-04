@@ -755,7 +755,7 @@ body {
 
 
 /* Responsive grid */
-  .projects, .updates, .process {
+  .projects, .process {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1066,10 +1066,12 @@ body {
     position: absolute;
     top: -1px;
     right: -1px;
-    width: 50px;
-    height: 50px;
-    border-radius: 0 2px 0 2px;
+    width: 60px;
+    height: 60px;
+    border-radius: 70%;
+    /* border-radius: 0 2px 0 2px; */
     background-color: #54ba42;
+    margin-top: -5px;
 }
   
 .one h3 {
@@ -1154,6 +1156,8 @@ body {
     .one {
       width: 60px;
       height: 60px;
+      border-radius: 20px;
+      margin-top: -5px;
     }
   
     .one h3 {
@@ -1629,7 +1633,7 @@ body {
 }
   
   /* Desktop styles */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .consultation {
       display: flex;
       justify-content: space-between;
@@ -1738,7 +1742,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 93%;
-    max-width: 1500px;
+    /* max-width: 1500px; */
     margin: auto;
     gap: 2em;
   }
@@ -1817,7 +1821,7 @@ body {
 }
   
   /* Media query for tablets and larger screens */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .updates {
       flex-direction: row;
       flex-wrap: wrap;
@@ -1827,6 +1831,19 @@ body {
     .update_1 {
       width: calc(33.333% - 1.33em);
     }
+} */
+
+@media (min-width: 780px) {
+  .updates {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .update_1 {
+      width: calc(50% - 1em);
+      margin-bottom: 2em;
+  }
 }
 
 /* mistake*/
@@ -2208,7 +2225,7 @@ body {
 
 
 
-.card > div,  .projects > div, .updates > div, .process > div {
+.card > div,  .projects > div, .process > div {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -2311,7 +2328,7 @@ img {
         font-size: 36px;
     }
 
-    .card > div,  .projects > div, .updates > div, .process > div {
+    .card > div,  .projects > div, .process > div {
         width: 48%;
     }
 }
@@ -2322,7 +2339,7 @@ img {
         font-size: 50px;
     }
 
-    .card > div, .projects > div, .updates > div, .process > div {
+    .card > div, .projects > div, .process > div {
         width: 31%;
     }
 }
@@ -2515,7 +2532,7 @@ img {
 }
   
   /* Desktop styles */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .hero_about, .hero_about_content1, .hero_about_content2 {
       width: 93%;
       margin: auto;
@@ -2539,6 +2556,7 @@ img {
       flex-direction: column;
       justify-content: center;
       padding-left: 60px;
+      margin-top: 120px;
     }
   
     .hero1_about h4 {
@@ -2574,13 +2592,13 @@ img {
   
     .hero2_about p {
       margin-right: 70px;
-      font-size: 18px;
+      font-size: 17px;
       line-height: 32px;
     }
   
     .hero_about_content1 p, .hero_about_content2 p {
       width: 98%;
-      font-size: 20px;
+      font-size: 22px;
       line-height: 32px;
       margin-top: 6em;
       margin-left: 10px;
@@ -3222,21 +3240,6 @@ img {
 /* contact_page */
 
 /* Base styles (mobile-first) */
-/* .img_about {
-    width: 100%;
-    text-align: center;
-    padding: 2em 1em;
-    background-color: #f5f5f5;
-}
-  
-.img_text h1 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-}
-  
-.img_text p {
-    font-size: 1em;
-} */
   
 .contact_page {
   width: 95%;
@@ -3380,9 +3383,6 @@ img {
   justify-content: center;
   align-items: center;
   position: absolute;
-  /* bottom: 0; */
-  /* top: -25px; */
-  /* left: 1em; */
 }
 
 .contact_phone_no i {
@@ -4467,10 +4467,6 @@ img {
       margin-top: 5px;
   }
 
-  /* .service_choose_1_text {
-      text-align: left;
-      margin-left: 1em;
-  } */
   .service_choose_1_text {
       text-align: left;
       margin-left: 1em;
@@ -4503,7 +4499,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1300px) {
   .service_choose {
     height: 650px;
     margin-top: 10em;
@@ -4558,7 +4554,7 @@ img {
   }
 
   .service_email p {
-    margin-left: 60px;
+    margin-left: 20px;
     margin-top: -10px;
   }
 }
