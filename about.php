@@ -175,7 +175,7 @@
                             <p class="sign_title">Engineer Solutions</p>
                             <div class="email">
                                 <img src="email-icon.png" alt="Email">
-                                <span>info@example.com</span>
+                                <span>info@augustine.com.ng</span>
                             </div>
                         </div>
                     </div>
@@ -185,11 +185,11 @@
                             <div class="arc"></div>
                         </div>
                         <div class="info">
-                            <h2>Nnamdi Nwafor</h2>
+                            <h2>Promise</h2>
                             <p class="sign_title">Engineer Solutions</p>
                             <div class="email">
                                 <img src="email-icon.png" alt="Email">
-                                <span>info@example.com</span>
+                                <span>info@promise.com.mg</span>
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                             <p class="sign_title">Engineer Solutions</p>
                             <div class="email">
                                 <img src="email-icon.png" alt="Email">
-                                <span>info@example.com</span>
+                                <span>info@Nnamdi.com.ng</span>
                             </div>
                         </div>
                     </div>
