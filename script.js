@@ -108,3 +108,12 @@ document.getElementById('newsletterForm').addEventListener('submit', function(e)
   });
 });
 
+// Get the query parameters from the URL
+const params = new URLSearchParams(window.location.search);
+
+// Check if the 'status' parameter is set to 'success'
+if (params.get('status') === 'success') {
+  const messageDiv = document.getElementById('form-message');
+  messageDiv.innerHTML = '<div class="success-message">Thank you, we have received your message! We\'ll be in touch soon to help you with your inquiry.</div>';
+  messageDiv.style.color = '#54ba42';  // Optional: Style the message
+}

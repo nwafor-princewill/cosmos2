@@ -1,33 +1,3 @@
-<?php
-session_start();  // Make sure to start the session at the beginning of each page
-$consultationMessage = '';
-
-    
-if (isset($_GET['consultation'])) {
-  error_log("Consultation status: " . $_GET['consultation']);
-
-    switch ($_GET['consultation']) {
-        case 'success':
-            $consultationMessage = '<div class="alert alert-success">Your consultation message has been successfully sent!</div>';
-            break;
-        case 'invalid_email':
-            $consultationMessage = '<div class="alert alert-danger">Invalid email address. Please try again.</div>';
-            break;
-        case 'email_error':
-            $consultationMessage = '<div class="alert alert-warning">Your message was saved, but we couldn\'t send an email. We\'ll contact you soon.</div>';
-            break;
-        case 'db_error':
-        case 'prepare_error':
-        case 'bind_error':
-            $consultationMessage = '<div class="alert alert-danger">An error occurred. Please try again later.</div>';
-            break;
-
-            error_log("Consultation message: " . $consultationMessage);
-    }
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,6 +50,7 @@ if (isset($_GET['consultation'])) {
 
 <section class="contact_page">
         <h1>Talk About How We Can Help You</h1>
+        <div id="form-message"></div> <!-- Success/Error message will appear here -->
         <div class="general_enquiry">
             <form action="/consultation_project/includes/client_enquiry.php" method="post"class="client_enquiry">
                 <h3>GENERAL ENQUIRY</h3>
@@ -106,14 +77,6 @@ if (isset($_GET['consultation'])) {
                 <button type="submit">Send Message</button>
 
 
-                <?php 
-                    if (!empty($consultationMessage)) {
-                        echo $consultationMessage;
-                        error_log("Outputting consultation message: " . $consultationMessage);
-                    } else {
-                        error_log("Consultation message is empty");
-                    }
-                ?>
             </form>
 
             

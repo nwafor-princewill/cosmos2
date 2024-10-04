@@ -66,7 +66,7 @@ if (empty($errors)) {
 // Handle the result
 if (empty($errors)) {
     // If everything was successful, redirect to the thank you page
-    header("Location: ../../thank_you.php");
+    header("Location: ../../contact.php?status=success");
     exit();
 } else {
     // If there were errors, redirect back to the form with error messages

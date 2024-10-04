@@ -1607,6 +1607,16 @@ body {
   background-color: #fff3cd;
   border-color: #ffeeba;
 }
+
+.success-message {
+  background-color: #e6f9e6; /* Light green background */
+  border: 1px solid #54ba42; /* Green border */
+  color: #54ba42; /* Green text */
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1em 0;
+}
   
   /* Tablet styles */
 @media screen and (min-width: 768px) {
@@ -3447,12 +3457,6 @@ img {
   .contact_enquiry {
     width: 30%;
   }
-
-  /* input[type="text"] {
-    height: 68px;
-    margin-top: 2em;
-    border-radius: 50px;
-  } */
 
   .client_enquiry input {
     height: 68px;
