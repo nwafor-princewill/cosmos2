@@ -182,15 +182,16 @@
                     </div>
                     <div class="signature">
                         <div class="avatar">
-                            <!-- <img src="Images/Images/promise.jpg" alt=""> -->
-                            <i class="fa-solid fa-envelope"></i>
+                            <img src="Images/Images/promise.jpg" alt="">
+                            
                             <div class="arc"></div>
                         </div>
                         <div class="info">
                             <h2>Promise</h2>
                             <p class="sign_title">Engineer Solutions</p>
                             <div class="email">
-                                <img src="email-icon.png" alt="Email">
+                                <!-- <img src="email-icon.png" alt="Email"> -->
+                                <i class="fa-solid fa-envelope"></i>
                                 <span>promise.agborji.com.ng</span>
                             </div>
                         </div>
@@ -199,8 +200,8 @@
                 <div class="row1">
                     <div class="signature">
                         <div class="avatar">
-                            <!-- <img src="Images/Images/Nnamdi.jpg" alt=""> -->
-                            <i class="fa-solid fa-envelope"></i>
+                            <img src="Images/Images/Nnamdi.jpg" alt="">
+                            <!-- <i class="fa-solid fa-envelope"></i> -->
                             <div class="arc"></div>
                         </div>
                         <div class="info">

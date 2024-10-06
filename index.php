@@ -338,7 +338,7 @@ if (isset($_GET['consultation'])) {
           <div class="client-info">
             <div class="client-pic">
               <a href="#">
-              <img src="Images/Images/cropped-logo-remove-preview.png" alt="">
+              <img src="Images/Images/cropped-logo-removebg-preview.png" alt="">
               </a>
             </div>
             <div class="client-details">
