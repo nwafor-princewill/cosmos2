@@ -334,11 +334,11 @@ if (isset($_GET['consultation'])) {
       </div>
       <div class="testimonial-content owl-carousel">
         <div class="single-testimonial">
-          <p>Cosmos Automation has been a true partner in our journey towards a more sustainable future. Their solutions have not only helped us reduce our environmental impact but have also improved our bottom line. Their expertise and dedication are unparalleled, and we're confident in their ability to continue delivering exceptional results.</p>
+          <p>Cosmos Automation has been a true partner in our journey towards a more sustainable future. Their solutions have not only helped us reduce our environmental impact but have also improved our bottom line. Their expertise are unparalleled, and we're confident in their ability to continue delivering exceptional results.</p>
           <div class="client-info">
             <div class="client-pic">
               <a href="#">
-              <img src="Images/Images/wp47715771_05_06.jpg" alt="">
+              <img src="Images/Images/cropped-logo-remove-preview.png" alt="">
               </a>
             </div>
             <div class="client-details">
@@ -349,7 +349,7 @@ if (isset($_GET['consultation'])) {
         </div>
 
         <div class="single-testimonial">
-          <p>Cosmos Automation has been a game-changer for our business. Their expertise in IoT and energy management has allowed us to optimize our buisness operations, and improve sustainability. The team is knowledgeable and dedicated, and they go above and beyond to deliver results.</p>
+          <p>Cosmos Automation has been a game-changer for our business. Their expertise in IoT and energy management has allowed us to optimize our buisness operations, and improve sustainability. The team is knowledgeable and dedicated, and they go above and beyond to deliver great results.</p>
           <div class="client-info">
             <div class="client-pic">
               <a href="#">
@@ -557,7 +557,7 @@ if (isset($_GET['consultation'])) {
           </div>
         </div>
       </div>
-      
+
       <div class="update_1">
         <div class="update_date">
           <p>December 12, 2023</p>

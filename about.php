@@ -174,14 +174,16 @@
                             <h2>Nnamdi Nwafor</h2>
                             <p class="sign_title">Engineer Solutions</p>
                             <div class="email">
-                                <img src="email-icon.png" alt="Email">
-                                <span>info@augustine.com.ng</span>
+                                <!-- <img src="email-icon.png" alt="Email"> -->
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>augustine.nwafor@cosmosautomation.com.ng</span>
                             </div>
                         </div>
                     </div>
                     <div class="signature">
                         <div class="avatar">
-                            <img src="Images/Images/promise.jpg" alt="">
+                            <!-- <img src="Images/Images/promise.jpg" alt=""> -->
+                            <i class="fa-solid fa-envelope"></i>
                             <div class="arc"></div>
                         </div>
                         <div class="info">
@@ -189,7 +191,7 @@
                             <p class="sign_title">Engineer Solutions</p>
                             <div class="email">
                                 <img src="email-icon.png" alt="Email">
-                                <span>info@promise.com.mg</span>
+                                <span>promise.agborji.com.ng</span>
                             </div>
                         </div>
                     </div>
@@ -197,15 +199,17 @@
                 <div class="row1">
                     <div class="signature">
                         <div class="avatar">
-                            <img src="Images/Images/Nnamdi.jpg" alt="">
+                            <!-- <img src="Images/Images/Nnamdi.jpg" alt=""> -->
+                            <i class="fa-solid fa-envelope"></i>
                             <div class="arc"></div>
                         </div>
                         <div class="info">
-                            <h2>Nnamdi Nwafor</h2>
+                            <h2>Nnamdi Nwaedozie</h2>
                             <p class="sign_title">Engineer Solutions</p>
                             <div class="email">
-                                <img src="email-icon.png" alt="Email">
-                                <span>info@Nnamdi.com.ng</span>
+                                <!-- <img src="email-icon.png" alt="Email"> -->
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>nnamdi.nwaedozie.com.ng</span>
                             </div>
                         </div>
                     </div>

@@ -213,7 +213,7 @@
 
         <div class="service_choose_11_container">
             <div class="service_choose_1_circle">
-
+                <i class="fa-solid fa-wallet"></i>
             </div>
             <div class="service_choose_1_text">
                 <h5>Lorem</h5>
