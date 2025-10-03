@@ -412,36 +412,10 @@ if (isset($_GET['consultation'])) {
         </div>
 
       </div>
-  
 
-      
   
     </div>
   </div>
-
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script> -->
-<!-- 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-  <script type="text/javascript">
-        $(document).ready(function(){
-          $('.testimonial-content').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:5
-            }
-        }
-    })
-        });
-  </script> -->
 
 
 </section>
